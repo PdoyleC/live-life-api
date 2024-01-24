@@ -47,15 +47,90 @@ The purpose of the API is to serve as the Back-end for the Front-end of the 5th 
 
 
 
+# Deployment and Development
+
+To run the server locally (Debug = True), the following commands are ran during the Developmentof the project:
+- python manage.py runserver <- Loads the website on the in-built Terminal.
+
+During development migrations to the database were made.
+To make migrations the following commands ran:
+- python manage.py makemigrations <- Creates a new database migration
+- python manage.py migrate <- Applies pending migrations
+
+To create or update Requirements.txt file the following commands ran:
+- pip3 freeze > requirements.txt <- Install req.
+
+To create a Superuser the following command ran.
+- python manage.py createsuperuser (username->email->password enter->password verify) <- Creates a Superuser (ignore email input).
 
 
+## How to Fork
+
+- Log in to Github
+- Go to repository for this project.
+- Click the fork button in the top right corner
+
+## How to Clone
+
+- Log in(or Sign Up) to Github
+- Go to repository for this project
+- Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+- Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+- Type the following command in the terminal (after the git clone you will need to paste the link you copied in step 3 above)
+- Set up a virtual environment.
+- Install the packages from the requirements.txt file - run Command pip3 install -r requirements.txt
 
 
+## ElephantSQL Database
+
+The website uses [ElephantSQL](https://www.elephantsql.com/) for its database.
+
+- I signed up with my GitHub account.
+- I created a new instance and the free plan was selected, and Europe was selected as the region.
+- I copied the database name for the project and copied the database URL.
+- The database URL was put into the Config Vars of Heroku and into a env file of the code.
+- Once pip3 install dj_database_url==0.5.0 psycopg2 and a few setting was added and updated.
+- A superuser was created in te terminal and the SQL Browser in [ElephantSQL](https://www.elephantsql.com/) under Table queries and auth-user was selected.
+- Once Excuted, the superuser details are displayed.
+
+<img src="readmedoc/connected.png" alt="Connected to SQL">
+
+## Cloudinary
+
+The website uses [Cloudinary](https://cloudinary.com/) for storing images.
+
+- I created an account in Cloudinary.
+- I copied the API environment variable in Dashboard over to my code.
 
 
+## Heroku
+
+The website was deployed to [Heroku](https://heroku.com/) by following these steps:
+
+- I created a new app/Project.
+- Enter a unique application name, Select your region, Click Create App
+- Installed gunicorn into the IDE terminal.
+- Make sone updates to the settings, and add allowed hosts and installed apps.
+  Add the DATABASE_URL chosen SECRET_KEY value to the env.py file.
+- Inside the project settings tab and clicked reveal configuration vars
+- I added the following configuration vars: CLOUDINARY_URL, DATABASE_URL, and SECRET_KEY .
+- I went to the deploy tab and connected the GitHub repository.
+- Update the settings.py file to import the env.py file with SECRETKEY and DATABASE_URL added.
+- Add Heroku to the ALLOWED_HOSTS list in settings.py ['app_name.heroku.com', 'localhost']
+- Selected Deploy tab and clicked Main branch.
+- Clicked on Open app.
 
 
-
+## Languages & Technologies
+- Django REST Framework (Python Framework - API)
+- 
+  
+## Other forms of development
+- [Github](https://github.com/) - Host for the repository
+- [Code AnyWhere](https://app.codeanywhere.com/) - Code editor
+- [ElephantSQL](https://www.elephantsql.com/) - Database
+- [Cloudinary](https://cloudinary.com/) - Static & Media host
+- [Heroku](https://dashboard.heroku.com/apps) - Host the live project
 
 
 
