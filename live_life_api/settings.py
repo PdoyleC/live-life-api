@@ -64,7 +64,7 @@ DEBUG = 'DEV' in os.environ
 ALLOWED_HOSTS = [
     os.environ.get('ALLOWED_HOST'),
     'localhost',
-    '8000-pdoylec-live-life-api-pnbsbo14mz.us2.codeanyapp.com'
+    '8000-pdoylec-live-life-api-pnbsbo14mz.us2.codeanyapp.com',
     'live-life-api-now-f6f9c42b2398.herokuapp.com']
 
 
