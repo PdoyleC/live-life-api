@@ -15,8 +15,32 @@ The purpose of the API is to serve as the Back-end for the Front-end of the 5th 
 
 
 
+# Package Dependencies
+- asgiref==3.7.2
+- cloudinary==1.38.0
+- dj-database-url==0.5.0
+- dj-rest-auth==5.0.2
+- Django==3.2.23
+- django-allauth==0.57.0
+- django-cloudinary-storage==0.3.0
+- django-cors-headers==4.3.1
+- django-filter==23.5
+- djangorestframework==3.14.0
+- djangorestframework-simplejwt==5.3.1
+- gunicorn==21.2.0
+- oauthlib==3.2.2
+- pillow==10.2.0
+- psycopg2==2.9.9
+- PyJWT==2.8.0
+- python3-openid==3.2.0
+- pytz==2023.3.post1
+- requests-oauthlib==1.3.1
+- sqlparse==0.4.4
 
-
+- pip install dj-rest-auth==2.1.9
+- pip install dj-rest-auth
+- pip install 'dj-rest-auth[with_social]'
+- pip install djangorestframework-simplejwt==4.7.2
 
 
 
