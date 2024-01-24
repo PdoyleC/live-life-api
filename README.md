@@ -1,3 +1,46 @@
+# Live Life API
+
+![API welcome message](readmedoc/apideployed.png)
+
+[Live Life API](https://live-life-api-now-f6f9c42b2398.herokuapp.com/)
+
+[Live Life frontend website](https://.herokuapp.com/)
+
+## Table of contents
+
+
+# Purpose of the API:
+The purpose of the API is to serve as the Back-end for the Front-end of the 5th project for code institute. This is needed for posting and getting data from endpoints and to perform Create, Read, Update and Delete operations to objects entered by Users via Front-end.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome,
