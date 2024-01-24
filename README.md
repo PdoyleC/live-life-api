@@ -137,10 +137,9 @@ The website was deployed to [Heroku](https://heroku.com/) by following these ste
 
 ## Testing
 
-### Manual testing
+### Manual test
 
 ### Automated tests
-
 
 ### Python validation
 
