@@ -124,7 +124,7 @@ The website was deployed to [Heroku](https://heroku.com/) by following these ste
 
 ## Languages & Technologies
 - Django REST Framework (Python Framework - API)
-- 
+  
   
 ## Other forms of development
 - [Github](https://github.com/) - Host for the repository
@@ -137,9 +137,15 @@ The website was deployed to [Heroku](https://heroku.com/) by following these ste
 
 ## Testing
 
-### Manual test
-
 ### Automated tests
+
+### Manual test
+- Testing was completed during each step. Going into the framework of the local server and typing in likes,comments, profiles,followers and posts and the end of the link, (https://8000-pdoylec-live-life-api-pnbsbo14mz.us2.codeanyapp.com/likes).
+
+<img src="readmedoc/cantmakechanges.png" alt="cant make changes profile">
+
+<img src="readmedoc/filterlist.png" alt="filter list profile">
+
 
 ### Python validation
 
