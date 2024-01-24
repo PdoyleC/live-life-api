@@ -95,6 +95,7 @@ The website uses [ElephantSQL](https://www.elephantsql.com/) for its database.
 
 <img src="readmedoc/connected.png" alt="Connected to SQL">
 
+
 ## Cloudinary
 
 The website uses [Cloudinary](https://cloudinary.com/) for storing images.
@@ -134,9 +135,58 @@ The website was deployed to [Heroku](https://heroku.com/) by following these ste
 
 
 
+## Testing
+
+### Manual testing
+
+### Automated tests
 
 
+### Python validation
 
+All Python code were then validated using the [Code Institute Python Linter](https://pep8ci.herokuapp.com/):
+
+- `profiles/admin.py`: no errors found
+- `profiles/models.py`: no errors found
+- `profiles/tests.py`: no errors found
+- `profiles/serializers.py`: no errors found
+- `profiles/urls.py`: no errors found
+- `profiles/views.py`: no errors found
+
+- `posts/admin.py`: no errors found
+- `posts/models.py`: no errors found
+- `posts/tests.py`: no errors found
+- `posts/serializers.py`: no errors found
+- `posts/urls.py`: no errors found
+- `posts/views.py`: no errors found
+
+- `likes/admin.py`: no errors found
+- `likes/models.py`: no errors found
+- `likes/tests.py`: no errors found
+- `likes/serializers.py`: no errors found
+- `likes/urls.py`: no errors found
+- `likes/views.py`: no errors found
+
+- `followers/admin.py`: no errors found
+- `followers/models.py`: no errors found
+- `followers/tests.py`: no errors found
+- `followers/serializers.py`: no errors found
+- `followers/urls.py`: no errors found
+- `followers/views.py`: no errors found
+
+- `comments/admin.py`: no errors found
+- `comments/models.py`: no errors found
+- `comments/tests.py`: no errors found
+- `comments/serializers.py`: no errors found
+- `comments/urls.py`: no errors found
+- `comments/views.py`: no errors found
+
+- `live_lide_api/admin.py`: no errors found
+- `live_lide_api/models.py`: no errors found
+- `live_lide_api/tests.py`: no errors found
+- `live_lide_api/serializers.py`: no errors found
+- `live_lide_api/urls.py`: no errors found
+- `live_lide_api/views.py`: no errors found
 
 
 
