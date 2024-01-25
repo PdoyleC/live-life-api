@@ -4,7 +4,9 @@
 
 [Live Life API](https://live-life-api-now-f6f9c42b2398.herokuapp.com/)
 
-[Live Life frontend website](https://.herokuapp.com/)
+[Link to READme frontend ](https://github.com/PdoyleC/live-life)
+
+[Live Life frontend website](https://everyday-life-3e5f19430af5.herokuapp.com/)
 
 ## Table of contents
 
@@ -150,6 +152,17 @@ The website was deployed to [Heroku](https://heroku.com/) by following these ste
 ### Python validation
 
 All Python code were then validated using the [Code Institute Python Linter](https://pep8ci.herokuapp.com/):
+
+| Page     |                           | Result |
+| ------------------------- |------------------ |
+|`profiles/admin.py`:       | no errors found   |
+|`profiles/models.py`:      | no errors found   |
+|`profiles/tests.py`:       | no errors found   |
+|`profiles/serializers.py`: | no errors found   |
+|`profiles/urls.py`:        | no errors found   |
+|`profiles/views.py`:       | no errors found   |
+
+
 
 - `profiles/admin.py`: no errors found
 - `profiles/models.py`: no errors found
