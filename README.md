@@ -6,7 +6,7 @@
 
 [Link to READme frontend ](https://github.com/PdoyleC/live-life)
 
-[Live Life frontend website](https://everyday-life-3e5f19430af5.herokuapp.com/)
+[Live Life frontend website](https://live-life-897b359a6b34.herokuapp.com/)
 
 ## Table of contents
 
