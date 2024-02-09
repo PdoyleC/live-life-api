@@ -96,6 +96,7 @@ INSTALLED_APPS = [
     'comments',
     'likes',
     'followers',
+    'adventure',
 ]
 SITE_ID = 1
 MIDDLEWARE = [
