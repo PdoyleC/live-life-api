@@ -208,6 +208,12 @@ All Python code were then validated using the [Code Institute Python Linter](htt
 
 
 
+## credits
+
+- [Django Rest Framework](https://www.django-rest-framework.org/).
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome,
