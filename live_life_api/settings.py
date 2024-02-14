@@ -67,6 +67,7 @@ ALLOWED_HOSTS = [
     os.environ.get('ALLOWED_HOST'),
     'localhost',
     '8000-pdoylec-live-life-api-08f3q06bam.us2.codeanyapp.com',
+    '8000-pdoylec-livelifeapi-9gh3iv8kgfi.ws-eu108.gitpod.io',
 ]
 
 
@@ -96,6 +97,7 @@ INSTALLED_APPS = [
     'comments',
     'likes',
     'followers',
+    'adventure',
 ]
 SITE_ID = 1
 MIDDLEWARE = [
