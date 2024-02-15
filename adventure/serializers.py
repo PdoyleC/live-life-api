@@ -15,7 +15,8 @@ class AdventureSerializer(serializers.ModelSerializer):
             'location',
             'activity',
             'personal_note',
-            'created_at'
+            'created_at',
+            'image'
         ]
 
 
