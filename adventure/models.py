@@ -6,7 +6,8 @@ class Adventure(models.Model):
     """
     Adventure model, related to User only, belongs to the owner.
     """
-    activity_filter_choices = [
+    activity_choices = [
+        ('other', 'Other'),
         ('hiking', 'Hiking'),
         ('cycling', 'Cycling'),
         ('racing', 'Racing'),
@@ -18,23 +19,23 @@ class Adventure(models.Model):
         ('water_sports', 'Water Sports'),
         ('travel', 'Travel'),
         ('running', 'Running'),
-        ('other', 'Other'),
-        ('rise', 'Rise'),
-        ('toaster', 'Toaster'),
-        ('valencia', 'Valencia'),
-        ('running', 'Running'),
-        ('other', 'Other')
     ]
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
     location = models.CharField(max_length=255)
-    activity = models.CharField(max_length=255)
+    activity = models.CharField(
+        max_length=255,
+        choices=activity_choices,
+        null=True, blank=True,
+        default='other')
     personal_note = models.TextField(blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    content = models.TextField()
+    image = models.ImageField(
+        upload_to='images/', default='../default_post_rxxwye', blank=True
+    )
 
     class Meta:
         ordering = ['-created_at']
 
     def __str__(self):
-        return self.content
+        return f'{self.id} {self.name}'
