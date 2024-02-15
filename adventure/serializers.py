@@ -13,7 +13,7 @@ class AdventureSerializer(serializers.ModelSerializer):
         fields = [
             'id',
             'location',
-            'adv_type',
+            'activity',
             'personal_note',
             'created_at'
         ]
