@@ -8,7 +8,7 @@ class Adventure(models.Model):
     """
     activity_choices = [
         ('family', 'Family'),
-        ('hobbies', 'Hobbies'),        
+        ('hobbies', 'Hobbies'),
         ('sport', 'Sport'),
         ('travel', 'Travel'),
         ('other', 'Other'),
