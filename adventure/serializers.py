@@ -22,7 +22,16 @@ class AdventureSerializer(serializers.ModelSerializer):
 
 class AdventureDetailSerializer(serializers.ModelSerializer):
     """
-    Serializer for the Comment model used in Detail view
-    Post is a read only field so that we dont have to set it on each update
+    Serializer for the detailed Adventures model
     """
-    post = serializers.ReadOnlyField(source='post.id')
+    
+    class Meta:
+        model = Adventure
+        fields = [
+            'id',
+            'location',
+            'activity',
+            'personal_note',
+            'created_at',
+            'image'
+        ]
