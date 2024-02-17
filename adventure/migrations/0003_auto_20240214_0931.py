@@ -29,7 +29,4 @@ class Migration(migrations.Migration):
                 'ordering': ['-created_at'],
             },
         ),
-        migrations.DeleteModel(
-            name='Comment',
-        ),
     ]
