@@ -157,16 +157,7 @@ Admin page contains Advendure and Contact models.
 
 All Python code were then validated using the [Code Institute Python Linter](https://pep8ci.herokuapp.com/):
 
-| Page     |                           | Result |
-| ------------------------- |------------------ |
-|`profiles/admin.py`:       | no errors found   |
-|`profiles/models.py`:      | no errors found   |
-|`profiles/tests.py`:       | no errors found   |
-|`profiles/serializers.py`: | no errors found   |
-|`profiles/urls.py`:        | no errors found   |
-|`profiles/views.py`:       | no errors found   |
-
-
+#### Profiles 
 
 - `profiles/admin.py`: no errors found
 - `profiles/models.py`: no errors found
@@ -175,12 +166,16 @@ All Python code were then validated using the [Code Institute Python Linter](htt
 - `profiles/urls.py`: no errors found
 - `profiles/views.py`: no errors found
 
+#### Posts 
+
 - `posts/admin.py`: no errors found
 - `posts/models.py`: no errors found
 - `posts/tests.py`: no errors found
 - `posts/serializers.py`: no errors found
 - `posts/urls.py`: no errors found
 - `posts/views.py`: no errors found
+
+#### Likes 
 
 - `likes/admin.py`: no errors found
 - `likes/models.py`: no errors found
@@ -189,12 +184,16 @@ All Python code were then validated using the [Code Institute Python Linter](htt
 - `likes/urls.py`: no errors found
 - `likes/views.py`: no errors found
 
+#### Followers 
+
 - `followers/admin.py`: no errors found
 - `followers/models.py`: no errors found
 - `followers/tests.py`: no errors found
 - `followers/serializers.py`: no errors found
 - `followers/urls.py`: no errors found
 - `followers/views.py`: no errors found
+
+#### Comments 
 
 - `comments/admin.py`: no errors found
 - `comments/models.py`: no errors found
@@ -203,12 +202,16 @@ All Python code were then validated using the [Code Institute Python Linter](htt
 - `comments/urls.py`: no errors found
 - `comments/views.py`: no errors found
 
+#### Adventure 
+
 - `adventure/admin.py`: no errors found
 - `adventure/models.py`: no errors found
 - `adventure/tests.py`: no errors found
 - `adventure/serializers.py`: no errors found
 - `adventure/urls.py`: no errors found
 - `adventure/views.py`: no errors found
+
+#### Contacts 
 
 - `contacts/admin.py`: no errors found
 - `contacts/models.py`: no errors found
@@ -217,12 +220,14 @@ All Python code were then validated using the [Code Institute Python Linter](htt
 - `contacts/urls.py`: no errors found
 - `contacts/views.py`: no errors found
 
-- `live_lide_api/admin.py`: no errors found
-- `live_lide_api/models.py`: no errors found
-- `live_lide_api/tests.py`: no errors found
-- `live_lide_api/serializers.py`: no errors found
-- `live_lide_api/urls.py`: no errors found
-- `live_lide_api/views.py`: no errors found
+#### live life
+
+- `live_life_api/admin.py`: no errors found
+- `live_life_api/models.py`: no errors found
+- `live_life_api/tests.py`: no errors found
+- `live_life_api/serializers.py`: no errors found
+- `live_life_api/urls.py`: no errors found
+- `live_life_api/views.py`: no errors found
 
 
 
