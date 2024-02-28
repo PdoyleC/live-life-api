@@ -5,7 +5,7 @@ from .models import Adventure
 class AdventureSerializer(serializers.ModelSerializer):
     """
     Serializer for the Adventures model
-    Adds handles for uers post
+    Adds handles for users post
     """
 
     class Meta:
