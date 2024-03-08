@@ -7,11 +7,11 @@ class Adventure(models.Model):
     Adventure model, related to User only, belongs to the owner.
     """
     activity_choices = [
-        ('Family', 'Family'),
-        ('Hobbies', 'Hobbies'),
-        ('Sport', 'Sport'),
-        ('Travel', 'Travel'),
-        ('Other', 'Other'),
+        ('family', 'Family'),
+        ('hobbies', 'Hobbies'),
+        ('sport', 'Sport'),
+        ('travel', 'Travel'),
+        ('other', 'Other'),
     ]
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
     location = models.CharField(max_length=255)
