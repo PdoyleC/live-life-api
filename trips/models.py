@@ -7,8 +7,8 @@ class Trip(models.Model):
     Model for posting items need for a trip.
     """
     buy_needed = [
-        ('y', 'Y'),
-        ('n', 'N'),
+        ('Y', 'Y'),
+        ('N', 'N'),
     ]
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
     name = models.CharField(max_length=255)
