@@ -9,7 +9,7 @@ class TripSerializer(serializers.ModelSerializer):
         fields = [
             'id',
             'name',
-            'quantity',            
+            'quantity',
             'buy',
             'created_at',
             'updated_at'

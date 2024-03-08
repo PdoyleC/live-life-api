@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 
+
 class Trip(models.Model):
     """
     Model for posting items need for a trip.
@@ -19,9 +20,9 @@ class Trip(models.Model):
         default='other')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    
+
     def __str__(self):
         return f"{self.name} {self.quantity} {self.buy}"
-    
+
     class Meta:
         ordering = ['-buy']

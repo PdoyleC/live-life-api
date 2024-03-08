@@ -220,6 +220,15 @@ All Python code were then validated using the [Code Institute Python Linter](htt
 - `contacts/urls.py`: no errors found
 - `contacts/views.py`: no errors found
 
+#### Trips 
+
+- `trips/admin.py`: no errors found
+- `trips/models.py`: no errors found
+- `trips/tests.py`: no errors found
+- `trips/serializers.py`: no errors found
+- `trips/urls.py`: no errors found
+- `trips/views.py`: no errors found
+
 #### live life
 
 - `live_life_api/admin.py`: no errors found
