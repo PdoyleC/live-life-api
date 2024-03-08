@@ -242,4 +242,5 @@ All Python code were then validated using the [Code Institute Python Linter](htt
 
 ## credits
 
-- [Django Rest Framework](https://www.django-rest-framework.org/).
+- Django-rest-framework [Django Rest Framework](https://www.django-rest-framework.org/).
+- Geeks for geeks [Django Rest Framework](https://www.geeksforgeeks.org/decimalfield-django-models/?ref=lbp).
