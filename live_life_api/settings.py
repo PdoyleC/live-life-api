@@ -100,6 +100,7 @@ INSTALLED_APPS = [
     'followers',
     'adventure',
     'contacts',
+    'trips',
 ]
 SITE_ID = 1
 MIDDLEWARE = [
