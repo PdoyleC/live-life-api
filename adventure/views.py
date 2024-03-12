@@ -1,4 +1,4 @@
-from rest_framework import generics, permissions
+from rest_framework import generics, permissions, filters
 from django_filters.rest_framework import DjangoFilterBackend
 from live_life_api.permissions import IsOwnerOrReadOnly
 from .models import Adventure
@@ -12,6 +12,13 @@ class AdventureList(generics.ListCreateAPIView):
     serializer_class = AdventureSerializer
     permission_classes = [permissions.IsAuthenticated]
     queryset = Adventure.objects.all()
+    filter_backends = [
+        filters.SearchFilter,
+    ]
+    search_fields = [
+        'location',
+        'activity',
+    ]
 
     def get_queryset(self):
         user = self.request.user
@@ -28,6 +35,7 @@ class AdventureDetail(generics.RetrieveUpdateDestroyAPIView):
     permission_classes = [IsOwnerOrReadOnly]
     serializer_class = AdventureDetailSerializer
     queryset = Adventure.objects.all()
+    
 
     def get_queryset(self):
         user = self.request.user
