@@ -4,7 +4,7 @@
 
 [Live Life API](https://live-life-api-now-f6f9c42b2398.herokuapp.com/)
 
-[Link to READme frontend ](https://github.com/PdoyleC/live-life)
+[Link to READme frontend ](https://github.com/PdoyleC/live-life/blob/main/README.md)
 
 [Live Life frontend website](https://live-life-897b359a6b34.herokuapp.com/)
 
@@ -14,7 +14,8 @@
 # Purpose of the API:
 The purpose of the API is to serve as the Back-end for the Front-end of the 5th project for code institute. This is needed for posting and getting data from endpoints and to perform Create, Read, Update and Delete operations to objects entered by Users via Front-end.
 
-
+## User Stories
+I have included links to the [GitHub Issues](https://github.com/PdoyleC/live-life-api/issues) for this project, as well as the [KANBAN board](https://github.com/users/PdoyleC/projects/7/views/1).
 
 
 # Package Dependencies
