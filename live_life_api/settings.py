@@ -69,6 +69,7 @@ ALLOWED_HOSTS = [
     '8000-pdoylec-live-life-api-08f3q06bam.us2.codeanyapp.com',
     '8000-pdoylec-livelifeapi-n1lo3hncw9e.ws-eu108.gitpod.io',
     '8000-pdoylec-livelifeapi-50p011oii6j.ws-eu110.gitpod.io',
+    '8000-pdoylec-livelifeapi-50p011oii6j.ws-us110.gitpod.io',
 ]
 
 
