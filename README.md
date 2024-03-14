@@ -17,6 +17,10 @@ The purpose of the API is to serve as the Back-end for the Front-end of the 5th 
 ## User Stories
 I have included links to the [GitHub Issues](https://github.com/PdoyleC/live-life-api/issues) for this project, as well as the [KANBAN board](https://github.com/users/PdoyleC/projects/7/views/1).
 
+<img src="readmedoc/apikanban.png" alt="project planning image">
+
+
+
 
 # Package Dependencies
 - asgiref==3.7.2
