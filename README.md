@@ -52,6 +52,16 @@ I have included links to the [GitHub Issues](https://github.com/PdoyleC/live-lif
 
 
 
+# Database schema
+
+<details>
+<summary>Database schema diagram</summary>
+
+This was completed using [DrawSQL](https://drawsql.app/)
+
+<img src="readmedoc/drawsql.png" alt="Database structure image">
+
+</details>
 
 
 # Deployment and Development
