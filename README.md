@@ -24,7 +24,6 @@
    * [Languages & Technologies](#languages-technologies)
    * [Other forms of development](#other-forms-of-development)
 - [Testing](#testing)
-   * [Automated tests](#automated-tests)
    * [Manual test](#manual-test)
    * [Python validation](#python-validation)
       + [Profiles ](#profiles)
