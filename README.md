@@ -10,6 +10,34 @@
 
 ## Table of contents
 
+- [Live Life API](#live-life-api)
+- [Purpose of the API:](#purpose-of-the-api)
+   * [User Stories](#user-stories)
+- [Package Dependencies](#package-dependencies)
+- [Database schema](#database-schema)
+- [Deployment and Development](#deployment-and-development)
+   * [How to Fork](#how-to-fork)
+   * [How to Clone](#how-to-clone)
+   * [ElephantSQL Database](#elephantsql-database)
+   * [Cloudinary](#cloudinary)
+   * [Heroku](#heroku)
+   * [Languages & Technologies](#languages-technologies)
+   * [Other forms of development](#other-forms-of-development)
+- [Testing](#testing)
+   * [Automated tests](#automated-tests)
+   * [Manual test](#manual-test)
+   * [Python validation](#python-validation)
+      + [Profiles ](#profiles)
+      + [Posts ](#posts)
+      + [Likes ](#likes)
+      + [Followers ](#followers)
+      + [Comments ](#comments)
+      + [Adventure ](#adventure)
+      + [Contacts ](#contacts)
+      + [Trips ](#trips)
+      + [live life](#live-life)
+- [credits](#credits)
+
 
 # Purpose of the API:
 The purpose of the API is to serve as the Back-end for the Front-end of the 5th project for code institute. This is needed for posting and getting data from endpoints and to perform Create, Read, Update and Delete operations to objects entered by Users via Front-end.
@@ -151,11 +179,11 @@ The website was deployed to [Heroku](https://heroku.com/) by following these ste
 
 
 
-## Testing
+# Testing
 
-### Automated tests
+## Automated tests
 
-### Manual test
+## Manual test
 - Testing was completed during each step. Going into the framework of the local server and typing in likes,comments, profiles,followers and posts and the end of the link, (https://8000-pdoylec-live-life-api-pnbsbo14mz.us2.codeanyapp.com/likes).
 
 <img src="readmedoc/cantmakechanges.png" alt="cant make changes profile">
@@ -167,11 +195,11 @@ Admin page contains Advendure and Contact models.
 <img src="readmedoc/admin.png" alt="Admin screen shot">
 
 
-### Python validation
+## Python validation
 
 All Python code were then validated using the [Code Institute Python Linter](https://pep8ci.herokuapp.com/):
 
-#### Profiles 
+### Profiles 
 
 - `profiles/admin.py`: no errors found
 - `profiles/models.py`: no errors found
@@ -180,7 +208,7 @@ All Python code were then validated using the [Code Institute Python Linter](htt
 - `profiles/urls.py`: no errors found
 - `profiles/views.py`: no errors found
 
-#### Posts 
+### Posts 
 
 - `posts/admin.py`: no errors found
 - `posts/models.py`: no errors found
@@ -189,7 +217,7 @@ All Python code were then validated using the [Code Institute Python Linter](htt
 - `posts/urls.py`: no errors found
 - `posts/views.py`: no errors found
 
-#### Likes 
+### Likes 
 
 - `likes/admin.py`: no errors found
 - `likes/models.py`: no errors found
@@ -198,7 +226,7 @@ All Python code were then validated using the [Code Institute Python Linter](htt
 - `likes/urls.py`: no errors found
 - `likes/views.py`: no errors found
 
-#### Followers 
+### Followers 
 
 - `followers/admin.py`: no errors found
 - `followers/models.py`: no errors found
@@ -207,7 +235,7 @@ All Python code were then validated using the [Code Institute Python Linter](htt
 - `followers/urls.py`: no errors found
 - `followers/views.py`: no errors found
 
-#### Comments 
+### Comments 
 
 - `comments/admin.py`: no errors found
 - `comments/models.py`: no errors found
@@ -216,7 +244,7 @@ All Python code were then validated using the [Code Institute Python Linter](htt
 - `comments/urls.py`: no errors found
 - `comments/views.py`: no errors found
 
-#### Adventure 
+### Adventure 
 
 - `adventure/admin.py`: no errors found
 - `adventure/models.py`: no errors found
@@ -225,7 +253,7 @@ All Python code were then validated using the [Code Institute Python Linter](htt
 - `adventure/urls.py`: no errors found
 - `adventure/views.py`: no errors found
 
-#### Contacts 
+### Contacts 
 
 - `contacts/admin.py`: no errors found
 - `contacts/models.py`: no errors found
@@ -234,7 +262,7 @@ All Python code were then validated using the [Code Institute Python Linter](htt
 - `contacts/urls.py`: no errors found
 - `contacts/views.py`: no errors found
 
-#### Trips 
+### Trips 
 
 - `trips/admin.py`: no errors found
 - `trips/models.py`: no errors found
@@ -243,7 +271,7 @@ All Python code were then validated using the [Code Institute Python Linter](htt
 - `trips/urls.py`: no errors found
 - `trips/views.py`: no errors found
 
-#### live life
+### live life
 
 - `live_life_api/admin.py`: no errors found
 - `live_life_api/models.py`: no errors found
@@ -254,7 +282,7 @@ All Python code were then validated using the [Code Institute Python Linter](htt
 
 
 
-## credits
+# credits
 
 - Django-rest-framework [Django Rest Framework](https://www.django-rest-framework.org/).
 - Geeks for geeks [Django Rest Framework](https://www.geeksforgeeks.org/decimalfield-django-models/?ref=lbp).
