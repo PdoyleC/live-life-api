@@ -189,7 +189,7 @@ The website was deployed to [Heroku](https://heroku.com/) by following these ste
 
 <img src="readmedoc/filterlist.png" alt="filter list profile">
 
-Admin page contains Advendure and Contact models.
+Admin page contains Advendure, Trips and Contact models.
 
 <img src="readmedoc/admin.png" alt="Admin screen shot">
 
