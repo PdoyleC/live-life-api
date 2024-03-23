@@ -37,6 +37,7 @@
       + [Trips ](#trips)
       + [live life](#live-life)
 - [Credits](#credits)
+- [Acknowledgments](#acknowledgments)
 
 
 # Purpose of the API:
@@ -299,3 +300,8 @@ All Python code were then validated using the [Code Institute Python Linter](htt
 
 - Django-rest-framework [Django Rest Framework](https://www.django-rest-framework.org/).
 - Geeks for geeks [Django Rest Framework](https://www.geeksforgeeks.org/decimalfield-django-models/?ref=lbp).
+
+# Acknowledgments
+
+- The following tutors online at CI, guided and helped me during this project - Oisin, Holly, John, Rebecca, Sarah, Joanne, Alan, Sean.
+- My mentor Jubril Akolade for good briefings, tips and feedback.
