@@ -15,6 +15,7 @@
    * [User Stories](#user-stories)
 - [Package Dependencies](#package-dependencies)
 - [Database schema](#database-schema)
+- [Features and Functionality for Superusers](#features-and-functionality-for-superusers)
 - [Deployment and Development](#deployment-and-development)
    * [How to Fork](#how-to-fork)
    * [How to Clone](#how-to-clone)
@@ -35,7 +36,7 @@
       + [Contacts ](#contacts)
       + [Trips ](#trips)
       + [live life](#live-life)
-- [credits](#credits)
+- [Credits](#credits)
 
 
 # Purpose of the API:
@@ -88,6 +89,20 @@ This was completed using [DrawSQL](https://drawsql.app/)
 <img src="readmedoc/drawsql.png" alt="Database structure image">
 
 
+
+# Features and Functionality for Superusers
+
+As a Superuser one has the ability to perform the following via the [admin panel](https://8000-pdoylec-livelifeapi-50p011oii6j.ws-eu110.gitpod.io/admin):
+- CRUD Posts
+- CRUD Comments
+- CRUD Likes
+- CRUD Followers
+- CRUD Profiles
+- CRUD Trip List
+- CRUD Adventures
+- CRUD Contacts
+- Change Passwords
+- Promote users to Superuser
 
 
 # Deployment and Development
