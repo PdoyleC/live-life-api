@@ -181,8 +181,6 @@ The website was deployed to [Heroku](https://heroku.com/) by following these ste
 
 # Testing
 
-## Automated tests
-
 ## Manual test
 - Testing was completed during each step. Going into the framework of the local server and typing in likes, comments, profiles, followers and posts and the end of the link, (https://8000-pdoylec-live-life-api-pnbsbo14mz.us2.codeanyapp.com/likes).
 
