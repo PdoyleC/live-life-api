@@ -92,7 +92,7 @@ This was completed using [DrawSQL](https://drawsql.app/)
 
 # Deployment and Development
 
-To run the server locally (Debug = True), the following commands are ran during the Developmentof the project:
+To run the server locally (Debug = True), the following commands are run during the Development of the project:
 - python manage.py runserver <- Loads the website on the in-built Terminal.
 
 During development migrations to the database were made.
@@ -104,7 +104,7 @@ To create or update Requirements.txt file the following commands ran:
 - pip3 freeze > requirements.txt <- Install req.
 
 To create a Superuser the following command ran.
-- python manage.py createsuperuser (username->email->password enter->password verify) <- Creates a Superuser (ignore email input).
+- python manage.py create superuser (username->email->password enter->password verify) <- Creates a Superuser (ignore email input).
 
 
 ## How to Fork
@@ -132,11 +132,11 @@ The website uses [ElephantSQL](https://www.elephantsql.com/) for its database.
 - I created a new instance and the free plan was selected, and Europe was selected as the region.
 - I copied the database name for the project and copied the database URL.
 - The database URL was put into the Config Vars of Heroku and into a env file of the code.
-- Once pip3 install dj_database_url==0.5.0 psycopg2 and a few setting was added and updated.
-- A superuser was created in te terminal and the SQL Browser in [ElephantSQL](https://www.elephantsql.com/) under Table queries and auth-user was selected.
-- Once Excuted, the superuser details are displayed.
+- Once pip3 install dj_database_url==0.5.0 psycopg2 and a few settings was added and updated.
+- A superuser was created in the terminal and the SQL Browser in [ElephantSQL](https://www.elephantsql.com/) under Table queries and auth-user was selected.
+- Once Executed, the superuser details are displayed.
 
-<img src="readmedoc/connected.png" alt="Connected to SQL">
+<img src="readmedoc/connected.png" alt="Connected to SQL image">
 
 
 ## Cloudinary
@@ -171,6 +171,7 @@ The website was deployed to [Heroku](https://heroku.com/) by following these ste
   
 ## Other forms of development
 - [Github](https://github.com/) - Host for the repository
+- [GitPod](https://gitpod.io/) - Code editor
 - [Code AnyWhere](https://app.codeanywhere.com/) - Code editor
 - [ElephantSQL](https://www.elephantsql.com/) - Database
 - [Cloudinary](https://cloudinary.com/) - Static & Media host
@@ -183,15 +184,15 @@ The website was deployed to [Heroku](https://heroku.com/) by following these ste
 ## Automated tests
 
 ## Manual test
-- Testing was completed during each step. Going into the framework of the local server and typing in likes,comments, profiles,followers and posts and the end of the link, (https://8000-pdoylec-live-life-api-pnbsbo14mz.us2.codeanyapp.com/likes).
+- Testing was completed during each step. Going into the framework of the local server and typing in likes, comments, profiles, followers and posts and the end of the link, (https://8000-pdoylec-live-life-api-pnbsbo14mz.us2.codeanyapp.com/likes).
 
-<img src="readmedoc/cantmakechanges.png" alt="cant make changes profile">
+<img src="readmedoc/cantmakechanges.png" alt="can't make changes profile image">
 
-<img src="readmedoc/filterlist.png" alt="filter list profile">
+<img src="readmedoc/filterlist.png" alt="filter list profile image">
 
-Admin page contains Advendure, Trips and Contact models.
+Admin page contains Adventure, Trips and Contact models.
 
-<img src="readmedoc/admin.png" alt="Admin screen shot">
+<img src="readmedoc/admin.png" alt="Admin screen shot image">
 
 
 ## Python validation
@@ -281,7 +282,7 @@ All Python code were then validated using the [Code Institute Python Linter](htt
 
 
 
-# credits
+# Credits
 
 - Django-rest-framework [Django Rest Framework](https://www.django-rest-framework.org/).
 - Geeks for geeks [Django Rest Framework](https://www.geeksforgeeks.org/decimalfield-django-models/?ref=lbp).
