@@ -72,6 +72,9 @@ ALLOWED_HOSTS = [
     '8000-pdoylec-livelifeapi-50p011oii6j.ws-us110.gitpod.io',
 ]
 
+CORS_ALLOW_HEADERS = list(default_headers)
+CORS_ALLOW_METHODS = list(default_methods)
+CSRF_TRUSTED_ORIGINS = [os.environ.get('CLIENT_ORIGIN_DEV', 'CLIENT_ORIGIN')]
 
 # Application definition
 
