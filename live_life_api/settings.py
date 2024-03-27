@@ -14,6 +14,8 @@ from pathlib import Path
 import os
 import dj_database_url
 import re
+from corsheaders.defaults import default_headers, default_methods
+
 
 
 if os.path.exists('env.py'):
