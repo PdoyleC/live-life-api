@@ -303,5 +303,5 @@ All Python code were then validated using the [Code Institute Python Linter](htt
 
 # Acknowledgments
 
-- The following tutors online at CI, guided and helped me during this project - Oisin, Holly, John, Rebecca, Sarah, Joanne, Alan, Sean.
+- The following tutors online at CI, guided and helped me during this project - Oisin, Holly, John, Rebecca, Sarah, Joanne, Alan, Lewis, Thomas, Sean.
 - My mentor Jubril Akolade for good briefings, tips and feedback.

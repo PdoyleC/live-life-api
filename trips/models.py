@@ -12,8 +12,7 @@ class Trip(models.Model):
     ]
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
     name = models.CharField(max_length=255)
-    quantity = models.DecimalField( max_digits = 5, 
-                         decimal_places = 0)
+    quantity = models.DecimalField(max_digits=5, decimal_places=0)
     buy = models.CharField(
         max_length=255,
         choices=buy_needed,
