@@ -27,4 +27,4 @@ class Trip(models.Model):
 
     class Meta:
         ordering = ['-buy']
-        unique_together = ('name',)
+        # unique_together = ('name',)
