@@ -93,7 +93,7 @@ This was completed using [DrawSQL](https://drawsql.app/)
 
 # Features and Functionality for Superusers
 
-As a Superuser one has the ability to perform the following via the [admin panel](https://8000-pdoylec-livelifeapi-50p011oii6j.ws-eu110.gitpod.io/admin):
+As a Superuser one has the ability to perform the following via the [admin panel](https://live-life-api-now-f6f9c42b2398.herokuapp.com/admin/):
 - CRUD Posts
 - CRUD Comments
 - CRUD Likes
@@ -198,7 +198,7 @@ The website was deployed to [Heroku](https://heroku.com/) by following these ste
 # Testing
 
 ## Manual test
-- Testing was completed during each step. Going into the framework of the local server and typing in likes, comments, profiles, followers and posts and the end of the link, (https://8000-pdoylec-live-life-api-pnbsbo14mz.us2.codeanyapp.com/likes).
+- Testing was completed during each step. Going into the framework of the local server and typing in likes, comments, profiles, followers and posts and the end of the link, (8000-live-life-api-123456789.eu2.codeanyapp.com/likes).
 
 <img src="readmedoc/cantmakechanges.png" alt="can't make changes profile image">
 
