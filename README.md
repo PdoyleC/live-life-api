@@ -170,7 +170,7 @@ The website was deployed to [Heroku](https://heroku.com/) by following these ste
 - I created a new app/Project.
 - Enter a unique application name, Select your region, Click Create App
 - Installed gunicorn into the IDE terminal.
-- Make sone updates to the settings, and add allowed hosts and installed apps.
+- Make some updates to the settings, and add allowed hosts and installed apps.
   Add the DATABASE_URL chosen SECRET_KEY value to the env.py file.
 - Inside the project settings tab and clicked reveal configuration vars
 - I added the following configuration vars: CLOUDINARY_URL, DATABASE_URL, and SECRET_KEY .
